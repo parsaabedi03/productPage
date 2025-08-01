@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <h3 class="font-montserrat-semibold">product page project</h3>
+    </header>
+    <main>
+      <section class="search">
+        <div class="searchByName">
+          <span class="searchTitle font-montserrat-medium">search by name</span>
+          <input type="text" placeholder="search name" id="searchByName" />
+        </div>
+        <div class="searchByCategory">
+          <span class="searchTitle font-montserrat-medium"
+            >search by category</span
+          >
+          <button data-category="all" class="active">All</button>
+          <button data-category="tech">Tech</button>
+          <button data-category="clothing">Clothing</button>
+          <button data-category="health">Health</button>
+        </div>
+        <div class="searchByPrice">
+          <span class="searchTitle font-montserrat-medium"
+            >search by price</span
+          >
+          <input type="number" placeholder="search price" id="searchByPrice" />
+          <button id="priceButton">Search</button>
+        </div>
+      </section>
+      <section class="products">
+        <div class="productCards">
+          <div class="card" data-category="tech">
+            <div class="cardImage">
+              <img src="./img/airpods.png" alt="airpods" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Apple airpods pro</h3>
+              <p class="font-montserrat-regular">$ 299</p>
+            </div>
+          </div>
+          <div class="card" data-category="clothing">
+            <div class="cardImage">
+              <img src="./img/bag.png" alt="bag" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">collage bag</h3>
+              <p class="font-montserrat-regular">$ 139</p>
+            </div>
+          </div>
+          <div class="card" data-category="health">
+            <div class="cardImage">
+              <img src="./img/cream.png" alt="cream" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">face cream</h3>
+              <p class="font-montserrat-regular">$ 39</p>
+            </div>
+          </div>
+          <div class="card" data-category="tech">
+            <div class="cardImage">
+              <img src="./img/iphone.png" alt="iphone" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Apple iphone 14 pro</h3>
+              <p class="font-montserrat-regular">$ 1499</p>
+            </div>
+          </div>
+          <div class="card" data-category="clothing">
+            <div class="cardImage">
+              <img src="./img/jacket.png" alt="jacket" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Boy's jacket</h3>
+              <p class="font-montserrat-regular">$ 169</p>
+            </div>
+          </div>
+          <div class="card" data-category="health">
+            <div class="cardImage">
+              <img src="./img/shampoo.png" alt="shampoo" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Keratin Hair Care</h3>
+              <p class="font-montserrat-regular">$ 39</p>
+            </div>
+          </div>
+          <div class="card" data-category="clothing">
+            <div class="cardImage">
+              <img src="./img/shoes.png" alt="shoes" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Running shoes</h3>
+              <p class="font-montserrat-regular">$ 199</p>
+            </div>
+          </div>
+          <div class="card" data-category="health">
+            <div class="cardImage">
+              <img src="./img/vitamin.png" alt="vitamin" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">vitamin e</h3>
+              <p class="font-montserrat-regular">$ 39</p>
+            </div>
+          </div>
+          <div class="card" data-category="tech">
+            <div class="cardImage">
+              <img src="./img/watch.png" alt="watch" />
+            </div>
+            <div class="cardInfo">
+              <h3 class="font-montserrat-semibold">Apple watch</h3>
+              <p class="font-montserrat-regular">$ 399</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="font-montserrat-medium">Made by Parsa with ❤️</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

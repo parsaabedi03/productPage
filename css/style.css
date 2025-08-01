@@ -1,0 +1,23 @@
+:root {
+  --color-body-bg: #f4f7f8; /* Main background color for the body */
+  --color-card-bg: #e8edf1; /* Background color for cards */
+  --color-text-primary: #323850; /* Primary text color */
+  --color-primary: #5284f6; /* Primary color for buttons and links */
+  --color-white: #ffffff; /* Primary color for buttons and links */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-body-bg);
+  font-size: 8px;
+}
+section {
+  width: calc(100% - 20px);
+  max-width: 1320px;
+  margin: 1rem auto;
+}
