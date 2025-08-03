@@ -32,9 +32,36 @@
   padding: 0.2rem;
   border-radius: 5px;
 }
-
+.products .productCards .card .cardInfo button {
+  background-color: var(--color-primary);
+  display: block;
+  color: var(--color-white);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.products .productCards .card .cardInfo .quantity {
+  display: flex;
+  align-items: center;
+  
+  margin-top: 0.5rem;
+}
+.products .productCards .card .cardInfo .quantity button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.products .productCards .card .cardInfo .quantity span {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
 .d-none {
-  display: none;
+  display: none !important;
 }
 
 @media (min-width: 586px) {
