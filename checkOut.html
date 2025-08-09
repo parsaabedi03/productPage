@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/checkOut.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <header>
+      <h3 class="font-montserrat-semibold">product page project</h3>
+      <a href="./checkOut.html">
+        <span class="icon"> 🛒 </span>
+      </a>
+    </header>
+    <main>
+      <div class="title">
+        <h2 class="font-montserrat-semibold">Your Cart</h2>
+      </div>
+      <div class="container">
+        <section class="cart">
+          <div class="cartItems">
+            <!-- Cart items will be dynamically inserted here -->
+          </div>
+          <div class="emptyCart d-none">
+            <h4 class="font-montserrat-semibold">Your cart is empty</h4>
+            <p class="font-montserrat-regular">
+              Add some products to see them here.
+            </p>
+            <a href="./">products →</a>
+          </div>
+        </section>
+        <section class="checkout">
+          <div class="checkoutBackground">
+            <div class="totalPrice">
+              <span class="font-montserrat-medium">Total: </span>
+              <span id="totalAmount">$0</span>
+            </div>
+            <button id="checkoutButton" class="font-montserrat-semibold">
+              Checkout
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p class="font-montserrat-medium">Made by Parsa with ❤️</p>
+    </footer>
+    <script src="./js/checkOut.js"></script>
+  </body>
+</html>
